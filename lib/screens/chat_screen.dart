@@ -68,9 +68,8 @@ class _ChatScreenState extends State<ChatScreen> {
                   ),
                   FlatButton(
                     onPressed: () {
-                      _firebaseMessages
-                          .collection('messages')
-                          .add({'text': messageText, 'sender': _firebaseUser});
+                      _firebaseMessages.collection('messages').add(
+                          {'text': messageText, 'sender': _firebaseUser.email});
                     },
                     child: Text(
                       'Send',
