@@ -13,22 +13,32 @@ class ChatScreen extends StatefulWidget {
 class _ChatScreenState extends State<ChatScreen> {
   final _auth = FirebaseAuth.instance;
   FirebaseUser _firebaseUser;
-  Firestore _firebaseMessages;
+  Firestore _firebaseStore;
   String messageText;
 
   @override
   void initState() {
     super.initState();
     getUser();
+
+    messageStream();
   }
 
   void getUser() async {
-    _firebaseMessages = Firestore.instance;
+    _firebaseStore = Firestore.instance;
     final user = await _auth.currentUser();
     if (user != null) {
       _firebaseUser = user;
       print(user);
     }
+  }
+
+  void messageStream() async {
+    await for (var snapshot
+        in _firebaseStore.collection('messages').snapshots())
+      for (var message in snapshot.documents) {
+        print(message.data);
+      }
   }
 
   @override
@@ -51,6 +61,29 @@ class _ChatScreenState extends State<ChatScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
+            StreamBuilder<QuerySnapshot>(
+                stream: _firebaseStore.collection('messages').snapshots(),
+                builder: (context, snapshot) {
+                  if (!snapshot.hasData) {
+                    return Center(
+                      child: CircularProgressIndicator(
+                        backgroundColor: Colors.blue,
+                      ),
+                    );
+                  }
+                  final messages = snapshot.data.documents;
+                  List<Text> messagewidgets = [];
+                  for (var message in messages) {
+                    final messageText = message.data['text'];
+                    final messageSender = message.data['sender'];
+                    final messageWidget =
+                        Text('$messageText from $messageSender');
+                    messagewidgets.add(messageWidget);
+                  }
+                  return Column(
+                    children: messagewidgets,
+                  );
+                }),
             Container(
               decoration: kMessageContainerDecoration,
               child: Row(
@@ -68,7 +101,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   ),
                   FlatButton(
                     onPressed: () {
-                      _firebaseMessages.collection('messages').add(
+                      _firebaseStore.collection('messages').add(
                           {'text': messageText, 'sender': _firebaseUser.email});
                     },
                     child: Text(
