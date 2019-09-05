@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/qpay/flutterProjects/flash-chat-flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
+            "outputFile": "/Users/nirajanchapagain/flutterProjects/flash_card/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
             "map": [
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3d14d9e6a4c1432ece5251ee3b17c3ec/res/values-kn/values-kn.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/d620268f09eb9ee00aec8adcbcfcf745/res/values-kn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "204",
+                        "endOffsets": "451"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1271",
+                        "endColumns": "204",
+                        "endOffsets": "1471"
+                    }
+                },
+                {
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/57618b6830a09c2d8486b7660cdbb7cd/res/values-kn/values-kn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/dea88e2d8f6223b033087a0c11534575/res/values-kn/values.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ca4c244090615edbc608175f46d4538b/res/values-kn/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,23 +52,6 @@
                         "startOffsets": "105,218,420,555,672,874,1005,1143,1476,1685,1800,1991,2128,2332,2519,2618,2711",
                         "endColumns": "112,201,134,116,201,130,137,127,208,114,190,136,203,186,98,92,113",
                         "endOffsets": "213,415,550,667,869,1000,1138,1266,1680,1795,1986,2123,2327,2514,2613,2706,2820"
-                    }
-                },
-                {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/b42b21b041155af6b67251d02719dfe3/res/values-kn/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "204",
-                        "endOffsets": "451"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1271",
-                        "endColumns": "204",
-                        "endOffsets": "1471"
                     }
                 }
             ]

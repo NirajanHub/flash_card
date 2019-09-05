@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/qpay/flutterProjects/flash-chat-flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
+            "outputFile": "/Users/nirajanchapagain/flutterProjects/flash_card/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3d14d9e6a4c1432ece5251ee3b17c3ec/res/values-zu/values-zu.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/57618b6830a09c2d8486b7660cdbb7cd/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/b42b21b041155af6b67251d02719dfe3/res/values-zu/values.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/d620268f09eb9ee00aec8adcbcfcf745/res/values-zu/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/dea88e2d8f6223b033087a0c11534575/res/values-zu/values.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ca4c244090615edbc608175f46d4538b/res/values-zu/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

@@ -1,2 +1,2 @@
-# Referenced at /home/qpay/flutterProjects/flash-chat-flutter/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28
+# Referenced at /Users/nirajanchapagain/flutterProjects/flash_card/build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28
 -keep class io.flutter.app.FlutterApplication { <init>(...); }

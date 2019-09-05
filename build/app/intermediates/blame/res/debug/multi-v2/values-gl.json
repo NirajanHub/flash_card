@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/qpay/flutterProjects/flash-chat-flutter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "outputFile": "/Users/nirajanchapagain/flutterProjects/flash_card/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
             "map": [
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/dea88e2d8f6223b033087a0c11534575/res/values-gl/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,544,671,777,995,1125,1270,1404,1634,1741,1941,2074,2298,2476,2569,2664",
-                        "endColumns": "103,194,126,105,217,129,144,133,229,106,199,132,223,177,92,94,109",
-                        "endOffsets": "348,543,670,776,994,1124,1269,1403,1633,1740,1940,2073,2297,2475,2568,2663,2773"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,408,539,649,867,1001,1150,1481,1711,1822,2022,2159,2383,2565,2662,2761",
-                        "endColumns": "107,194,130,109,217,133,148,137,229,110,199,136,223,181,96,98,113",
-                        "endOffsets": "208,403,534,644,862,996,1145,1283,1706,1817,2017,2154,2378,2560,2657,2756,2870"
-                    }
-                },
-                {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/3d14d9e6a4c1432ece5251ee3b17c3ec/res/values-gl/values-gl.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/57618b6830a09c2d8486b7660cdbb7cd/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/qpay/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/b42b21b041155af6b67251d02719dfe3/res/values-gl/values.xml",
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/ca4c244090615edbc608175f46d4538b/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,544,671,777,995,1125,1270,1404,1634,1741,1941,2074,2298,2476,2569,2664",
+                        "endColumns": "103,194,126,105,217,129,144,133,229,106,199,132,223,177,92,94,109",
+                        "endOffsets": "348,543,670,776,994,1124,1269,1403,1633,1740,1940,2073,2297,2475,2568,2663,2773"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,408,539,649,867,1001,1150,1481,1711,1822,2022,2159,2383,2565,2662,2761",
+                        "endColumns": "107,194,130,109,217,133,148,137,229,110,199,136,223,181,96,98,113",
+                        "endOffsets": "208,403,534,644,862,996,1145,1283,1706,1817,2017,2154,2378,2560,2657,2756,2870"
+                    }
+                },
+                {
+                    "source": "/Users/nirajanchapagain/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/d620268f09eb9ee00aec8adcbcfcf745/res/values-gl/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
